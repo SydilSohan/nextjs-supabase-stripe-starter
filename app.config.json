@@ -1,0 +1,50 @@
+{
+    "appName": "Your App Name",
+    "tagline": "Your App Tagline",
+    "keywords": ["keyword1", "keyword2", "keyword3"],
+    "brandLogo": "path/to/your/logo.png",
+    "metaDescription": "Your App Meta Description",
+    "author": "Author Name",
+    "contactEmail": "contact@yourapp.com",
+    "socialMedia": {
+        "facebook": "https://www.facebook.com/yourapp",
+        "twitter": "https://twitter.com/yourapp",
+        "instagram": "https://www.instagram.com/yourapp",
+        "linkedin": "https://www.linkedin.com/company/yourapp"
+    },
+    "analytics": {
+        "googleAnalyticsID": "Your Google Analytics ID",
+        "facebookPixelID": "Your Facebook Pixel ID"
+    },
+    "themeColor": "#000000",
+    "backgroundColor": "#ffffff",
+    "serverPort": 3000,
+    "database": {
+        "url": "Your Database URL",
+        "name": "Your Database Name"
+    },
+    "seo": {
+        "titleTemplate": "%s - Your App Name",
+        "defaultTitle": "Your App Name",
+        "description": "Your App Description",
+        "canonical": "https://www.yourapp.com",
+        "openGraph": {
+            "url": "https://www.yourapp.com",
+            "title": "Your App Name",
+            "description": "Your App Description",
+            "images": [
+                {
+                    "url": "https://www.yourapp.com/static/images/og-image.jpg",
+                    "width": 800,
+                    "height": 600,
+                    "alt": "Your App Name"
+                }
+            ],
+            "site_name": "Your App Name"
+        },
+        "twitter": {
+            "handle": "@yourapp",
+            "cardType": "summary_large_image"
+        }
+    }
+}
